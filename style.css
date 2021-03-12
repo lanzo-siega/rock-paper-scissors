@@ -1,0 +1,16 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1585314062604-1a357de8b000?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1951&q=80');
+    color: #FFF;
+}
+
+#main {
+    display:block; 
+    text-align: center;
+    flex-direction:column; 
+    justify-content:center;
+  }
+
+.choice {
+    width:60px;
+    height: 60px;
+}

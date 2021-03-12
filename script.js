@@ -6,7 +6,7 @@ var reset = document.getElementById('reset');
 reset.style.display = 'none';
 
 const inputUserChoice = document.getElementsByClassName('choice');
-const body = document.getElementById('body');
+const main = document.getElementById('main');
 
 const scoreboard = document.createElement('div');
 const score = document.createElement('h1');
@@ -23,7 +23,7 @@ scoreboard.appendChild(score);
 scoreboard.appendChild(humanScore);
 scoreboard.appendChild(computerScore);
 scoreboard.appendChild(action);
-body.appendChild(scoreboard);
+main.appendChild(scoreboard);
 
 for(i = 0; i < inputUserChoice.length; i++) {
   inputUserChoice[i].addEventListener('click', function() {
