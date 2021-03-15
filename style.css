@@ -11,6 +11,21 @@ body {
   }
 
 .choice {
-    width:60px;
-    height: 60px;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    filter: invert(0.9);
+}
+
+#resetDiv {
+    display:block; 
+    text-align: center;
+    flex-direction:column; 
+    justify-content:center;
+}
+
+#reset {
+    height: 40px;
+    width: 80px;
+    font-size: large;
 }
